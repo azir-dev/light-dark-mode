@@ -6,7 +6,33 @@
 
 ## 要点文档
 
+- [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)
+
+- [data-\* 自定义数据属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes/data-*)
+
+- [浏览器本地持久化存储 localStorage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/localStorage)
+
 ## 感谢免费资源提供商
+
+> 免费插画
+>
+> [Undraw](https://undraw.co/illustrations)
+
+> body 背景样式
+>
+> [HeroPatterns](https://heropatterns.com/)
+
+> Icon 图标
+>
+> [FontAwesome](https://fontawesome.com/icons?d=gallery&q=close&m=free)
+
+> Favicon
+>
+> [FaviconIO](https://favicon.io/)
+
+> 字体库
+>
+> [Google Fonts](https://fonts.google.com)
 
 ## 技术栈
 
@@ -17,12 +43,6 @@
 > [MDN CSS](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 
 > [Javascript (VanillaJs)](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript)
-
-## icons
-
-用于网页 favicon 以及其他 icon 图标
-
-> favicon.ico: [https://favicon.io/emoji-favicons/hear-no-evil-monkey/](https://favicon.io/emoji-favicons/hear-no-evil-monkey/)
 
 ## 代码库、版本管理及静态页面托管
 

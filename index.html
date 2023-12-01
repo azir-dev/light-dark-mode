@@ -4,10 +4,93 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/c57726c26d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Light Dark Mode</title>
   </head>
   <body>
-    <h1>init project</h1>
+    <header>
+      <!-- nav list -->
+      <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="theme-switch-wrapper">
+        <span class="toggle-icon">
+          <span>Light Mode</span>
+          <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+          <input type="checkbox" />
+          <div class="switch-bar"></div>
+        </label>
+      </div>
+    </header>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="title-container">
+        <h1 class="title">Custom Title Here</h1>
+        <h2 class="desc">Welcome to your website!</h2>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="title">Undraw Illustrations</h2>
+      <ul class="image-list">
+        <li class="image-container">
+          <h3 class="desc">Web Innovation</h3>
+          <img src="/img/undraw_proud_coder_light.svg" alt="" />
+        </li>
+        <li class="image-container">
+          <h3 class="desc">Problem Solving</h3>
+          <img src="/img/undraw_feeling_proud_light.svg" alt="" />
+        </li>
+        <li class="image-container">
+          <h3 class="desc">High Concept</h3>
+          <img src="/img/undraw_conceptual_idea_light.svg" alt="" />
+        </li>
+      </ul>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="title">Buttons</h2>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline" disabled>Disabled</button>
+      </div>
+      <div class="text-box" style="background-color: rgba(0, 0, 0, 0.5)">
+        <p>
+          Lorem ipsum dolor amet consectetur adipisicing elit. Voluptatibus
+          magnam sit alias eos ducimus expedita quam, corporis, blanditiis vel
+          facilis, animi adipisci? Nemo enim quisquam maiores minima, qui omnis.
+          Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolorem magnam accusamus qui, ab voluptates reprehenderit rerum quo
+          mollitia libero asperiores doloremque dolores, nihil repellat
+          doloribus perspiciatis magni dolore dolorum ipsam!
+        </p>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-codepen"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-medium"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
